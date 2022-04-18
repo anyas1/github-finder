@@ -26,7 +26,6 @@ export const GithubProvider = ({children}) => {
     });
 
     const data = await response.json();
-    return data;
     
  
       dispatch({
